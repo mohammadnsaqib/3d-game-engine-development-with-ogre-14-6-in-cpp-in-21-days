@@ -1,0 +1,20 @@
+# A file with one mistake in it, used by the bad_reload scene.
+#
+# `intrudor` is not a variable. The parser refuses the WHOLE file rather than install the three
+# states above the error and drop the one below it.
+
+state idle
+  speed 0
+  goto patrol when timer > 0.40
+
+state patrol
+  speed 210
+  goto chase when intrudor < 200
+
+state chase
+  speed 150
+  goto return when intruder > 340
+
+state return
+  speed 95
+  goto idle when home < 24

@@ -1,0 +1,96 @@
+> lanternkeep --scene built
+scene            built
+original objects 14
+save written     (none)
+load ok          no
+wrote shots/built.png
+> lanternkeep --scene moved
+scene            moved
+original objects 14
+save written     (none)
+load ok          no
+wrote shots/moved.png
+> lanternkeep --scene round_trip
+scene            round_trip
+original objects 14
+save written     keep.save
+load ok          yes
+file version     2  (this build reads 2)
+objects loaded   14
+migrated fields  0
+skipped keys     0
+differences      0
+wrote shots/round_trip.png
+> lanternkeep --scene diff_seen
+scene            diff_seen
+original objects 14
+save written     keep.save
+load ok          yes
+file version     2  (this build reads 2)
+objects loaded   14
+migrated fields  0
+skipped keys     0
+differences      1
+  lantern2: position moved
+wrote shots/diff_seen.png
+> lanternkeep --scene v1_file
+scene            v1_file
+original objects 14
+save written     keep.save
+load ok          yes
+file version     1  (this build reads 2)
+objects loaded   14
+migrated fields  14
+skipped keys     0
+differences      14
+  wall0: scale changed
+  wall1: scale changed
+  wall2: scale changed
+  wall3: scale changed
+  wall4: scale changed
+  wall5: scale changed
+  wall6: scale changed
+  wall7: scale changed
+  wall8: scale changed
+  lantern0: scale changed
+  lantern1: scale changed
+  lantern2: scale changed
+  lantern3: scale changed
+  warden: scale changed
+wrote shots/v1_file.png
+> lanternkeep --scene unknown_key
+scene            unknown_key
+original objects 14
+save written     keep.save
+load ok          yes
+file version     2  (this build reads 2)
+objects loaded   14
+migrated fields  0
+skipped keys     14
+differences      0
+wrote shots/unknown_key.png
+> lanternkeep --scene holes
+scene            holes
+original objects 10
+save written     keep.save
+load ok          yes
+file version     2  (this build reads 2)
+objects loaded   10
+migrated fields  0
+skipped keys     0
+differences      0
+wrote shots/holes.png
+> lanternkeep --scene future_file
+scene            future_file
+original objects 14
+save written     keep.save
+load ok          no
+load error       save is version 99; this build reads up to 2
+wrote shots/future_file.png
+> lanternkeep --scene truncated
+scene            truncated
+original objects 14
+save written     keep.save
+load ok          no
+load error       save file ends without its trailer -- truncated
+wrote shots/truncated.png

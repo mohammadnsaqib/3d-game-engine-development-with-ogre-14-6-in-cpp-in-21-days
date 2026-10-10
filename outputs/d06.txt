@@ -1,0 +1,72 @@
+> lanternkeep --scene snapped
+scene          snapped
+tick rate      50 Hz
+ticks run      27
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/snapped.png
+> lanternkeep --scene interpolated
+scene          interpolated
+tick rate      50 Hz
+ticks run      27
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/interpolated.png
+> lanternkeep --scene slow_render
+scene          slow_render
+tick rate      50 Hz
+ticks run      55
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/slow_render.png
+> lanternkeep --scene fast_render
+scene          fast_render
+tick rate      50 Hz
+ticks run      14
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/fast_render.png
+> lanternkeep --scene coarse_tick
+scene          coarse_tick
+tick rate      10 Hz
+ticks run      5
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/coarse_tick.png
+> lanternkeep --scene fine_tick
+scene          fine_tick
+tick rate      100 Hz
+ticks run      55
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/fine_tick.png
+> lanternkeep --scene uneven
+scene          uneven
+tick rate      50 Hz
+ticks run      55
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/uneven.png
+> lanternkeep --scene spiral
+scene          spiral
+tick rate      50 Hz
+ticks run      120
+renders run    24
+markers        24
+frames clamped 24
+wrote shots/spiral.png
+> lanternkeep --scene unclamped
+scene          unclamped
+tick rate      50 Hz
+ticks run      168
+renders run    24
+markers        24
+frames clamped 0
+wrote shots/unclamped.png

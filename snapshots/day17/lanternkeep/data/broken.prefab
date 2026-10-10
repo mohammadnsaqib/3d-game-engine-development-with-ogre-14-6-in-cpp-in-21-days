@@ -1,0 +1,11 @@
+# The same keep with one word misspelled, kept so the chapter can show what a good parse
+# failure sounds like. `scal` is not `scale`.
+
+object wall
+  at     -160 40 -70
+  scal   0.20 0.46 0.20
+  repeat 9  40 0 0
+
+object lantern
+  at     170 190 210
+  glow   1.0 0.88 0.66

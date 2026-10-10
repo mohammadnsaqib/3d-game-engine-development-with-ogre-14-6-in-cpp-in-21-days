@@ -1,0 +1,124 @@
+> lanternkeep --scene driven
+scene            driven
+events fed       6
+unresolved       0
+context depth    1 (top: play)
+warden x         82.4
+  down    walk_right
+  up      walk_right
+  down    lift_lantern
+  up      lift_lantern
+  down    walk_right
+  up      walk_right
+wrote shots/driven.png
+> lanternkeep --scene rebound
+scene            rebound
+events fed       6
+unresolved       2
+context depth    1 (top: play)
+warden x         6.8
+  down    walk_right
+  up      walk_right
+  down    lift_lantern
+  rebind  walk_right: key 68 -> 81
+  up      lift_lantern
+wrote shots/rebound.png
+> lanternkeep --scene menu_open
+scene            menu_open
+events fed       8
+unresolved       6
+context depth    2 (top: menu)
+warden x         -40.0
+  down    open_menu
+wrote shots/menu_open.png
+> lanternkeep --scene menu_closed
+scene            menu_closed
+events fed       8
+unresolved       4
+context depth    1 (top: play)
+warden x         35.6
+  down    open_menu
+  down    walk_right
+  up      walk_right
+wrote shots/menu_closed.png
+> lanternkeep --scene unbound
+scene            unbound
+events fed       16
+unresolved       16
+context depth    1 (top: play)
+warden x         -40.0
+wrote shots/unbound.png
+> lanternkeep --scene held
+scene            held
+events fed       2
+unresolved       0
+context depth    1 (top: play)
+warden x         123.8
+  down    walk_right
+  up      walk_right
+wrote shots/held.png
+> lanternkeep --scene tapped
+scene            tapped
+events fed       10
+unresolved       0
+context depth    1 (top: play)
+warden x         32.0
+  down    walk_right
+  up      walk_right
+  down    walk_right
+  up      walk_right
+  down    walk_right
+  up      walk_right
+  down    walk_right
+  up      walk_right
+  down    walk_right
+  up      walk_right
+wrote shots/tapped.png
+> lanternkeep --scene both
+scene            both
+events fed       4
+unresolved       0
+context depth    1 (top: play)
+warden x         24.8
+  down    walk_right
+  down    walk_left
+  up      walk_left
+  up      walk_right
+wrote shots/both.png
+> lanternkeep --scene no_input
+scene            no_input
+events fed       0
+unresolved       0
+context depth    1 (top: play)
+warden x         -40.0
+wrote shots/no_input.png
+> lanternkeep --scene walk_left
+scene            walk_left
+events fed       2
+unresolved       0
+context depth    1 (top: play)
+warden x         -191.2
+  down    walk_left
+  up      walk_left
+wrote shots/walk_left.png
+> lanternkeep --scene lift_held
+scene            lift_held
+events fed       3
+unresolved       0
+context depth    1 (top: play)
+warden x         24.8
+  down    walk_right
+  up      walk_right
+  down    lift_lantern
+wrote shots/lift_held.png
+> lanternkeep --scene rebind_early
+scene            rebind_early
+events fed       6
+unresolved       3
+context depth    1 (top: play)
+warden x         132.8
+  down    walk_right
+  rebind  walk_right: key 68 -> 81
+  down    lift_lantern
+  up      lift_lantern
+wrote shots/rebind_early.png

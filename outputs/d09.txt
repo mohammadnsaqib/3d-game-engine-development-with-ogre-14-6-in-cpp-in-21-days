@@ -1,0 +1,147 @@
+> lanternkeep --scene stale_pointer
+step 5           moved through a RAW POINTER kept across the destroy
+it pointed at    brazier
+scene            stale_pointer
+objects living   9
+slots allocated  9
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 2  live brazier
+wrote shots/stale_pointer.png
+> lanternkeep --scene handle_checked
+step 5           moved through a HANDLE
+it resolved to   (nothing -- correct)
+scene            handle_checked
+objects living   9
+slots allocated  9
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 2  live brazier
+wrote shots/handle_checked.png
+> lanternkeep --scene intact
+scene            intact
+objects living   9
+slots allocated  9
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 1  live warden
+wrote shots/intact.png
+> lanternkeep --scene destroyed
+scene            destroyed
+objects living   8
+slots allocated  9
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 2  dead (dead)
+wrote shots/destroyed.png
+> lanternkeep --scene reused
+scene            reused
+objects living   9
+slots allocated  9
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 2  live brazier
+wrote shots/reused.png
+> lanternkeep --scene respawn
+scene            respawn
+objects living   9
+slots allocated  9
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 4  live warden
+wrote shots/respawn.png
+> lanternkeep --scene churn
+scene            churn
+objects living   15
+slots allocated  16
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 1  live warden
+  slot 9  generation 1  live spark0
+  slot 10  generation 2  live spark2
+  slot 11  generation 2  live spark4
+  slot 12  generation 2  live spark6
+  slot 13  generation 2  live spark8
+  slot 14  generation 2  live spark10
+  slot 15  generation 2  dead (dead)
+wrote shots/churn.png
+> lanternkeep --scene walls_gone
+scene            walls_gone
+objects living   2
+slots allocated  2
+  slot 0  generation 1  live lantern
+  slot 1  generation 8  live warden
+wrote shots/walls_gone.png
+> lanternkeep --scene many
+scene            many
+objects living   16
+slots allocated  16
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live wall3
+  slot 5  generation 1  live wall4
+  slot 6  generation 1  live wall5
+  slot 7  generation 1  live wall6
+  slot 8  generation 1  live wall7
+  slot 9  generation 1  live wall8
+  slot 10  generation 1  live wall9
+  slot 11  generation 1  live wall10
+  slot 12  generation 1  live wall11
+  slot 13  generation 1  live wall12
+  slot 14  generation 1  live wall13
+  slot 15  generation 1  live warden
+wrote shots/many.png
+> lanternkeep --scene few
+scene            few
+objects living   5
+slots allocated  5
+  slot 0  generation 1  live lantern
+  slot 1  generation 1  live wall0
+  slot 2  generation 1  live wall1
+  slot 3  generation 1  live wall2
+  slot 4  generation 1  live warden
+wrote shots/few.png

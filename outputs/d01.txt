@@ -1,0 +1,22 @@
+> lanternkeep --scene first_light
+wrote shots/first_light.png
+> lanternkeep --scene empty
+wrote shots/empty.png
+> lanternkeep --scene no_light
+wrote shots/no_light.png
+> lanternkeep --scene ambient_black
+wrote shots/ambient_black.png
+> lanternkeep --scene ambient_bright
+wrote shots/ambient_bright.png
+> lanternkeep --scene light_low
+wrote shots/light_low.png
+> lanternkeep --scene target_small
+wrote shots/target_small.png
+> lanternkeep --scene bg_pale
+wrote shots/bg_pale.png
+> lanternkeep --scene wide_angle
+wrote shots/wide_angle.png
+> lanternkeep --scene no_scheme
+wrote shots/no_scheme.png
+> lanternkeep --scene no_rtss
+OGRE: Ogre::InvalidStateException::InvalidStateException: RenderSystem does not support FixedFunction, but technique of 'BaseWhite' has no Vertex Shader. Use the RTSS or write custom shaders. in SceneManager::_setPass at D:\src\ogre\OgreMain\src\OgreSceneManager.cpp (line 678)

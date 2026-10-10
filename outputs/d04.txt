@@ -1,0 +1,18 @@
+> lanternkeep --scene keep
+wrote shots/keep.png
+> lanternkeep --scene keep_moved
+wrote shots/keep_moved.png
+> lanternkeep --scene keep_dark
+wrote shots/keep_dark.png
+> lanternkeep --scene keep_bright
+wrote shots/keep_bright.png
+> lanternkeep --scene keep_close
+wrote shots/keep_close.png
+> lanternkeep --scene keep_two_lights
+wrote shots/keep_two_lights.png
+> lanternkeep --scene keep_tall
+wrote shots/keep_tall.png
+> lanternkeep --scene keep_crowded
+wrote shots/keep_crowded.png
+> lanternkeep --scene keep_bare
+wrote shots/keep_bare.png

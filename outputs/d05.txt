@@ -1,0 +1,76 @@
+> lanternkeep --scene ordered
+up   renderer
+up   scenery
+wrote shots/ordered.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene reversed
+scenery: the renderer is not up yet, so there is nothing to build in
+FAIL scenery
+engine did not come up; no frame written
+> lanternkeep --scene dark
+up   renderer
+up   scenery
+wrote shots/dark.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene lit
+up   renderer
+up   scenery
+wrote shots/lit.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene close
+up   renderer
+up   scenery
+wrote shots/close.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene sparse
+up   renderer
+up   scenery
+wrote shots/sparse.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene dense
+up   renderer
+up   scenery
+wrote shots/dense.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene twin
+up   renderer
+up   scenery
+wrote shots/twin.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene bare
+up   renderer
+up   scenery
+wrote shots/bare.png
+up   renderer
+up   scenery
+down scenery
+down renderer
+> lanternkeep --scene wide
+up   renderer
+up   scenery
+wrote shots/wide.png
+up   renderer
+up   scenery
+down scenery
+down renderer

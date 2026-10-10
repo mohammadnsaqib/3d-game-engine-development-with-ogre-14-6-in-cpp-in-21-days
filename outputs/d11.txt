@@ -1,0 +1,126 @@
+> lanternkeep --scene hitch
+scene            hitch
+manifest         200 entries
+loaded           200
+still pending    0
+bytes read       3374983
+frames           40
+frames over      1
+worst frame      more than 10x the mean frame of the same run
+busiest frame    200 of 200 asset(s) -- the whole manifest, in one frame
+verdict          SOME FRAMES DID NOT FIT
+  assets          40 calls
+  simulation      40 calls
+wrote shots/hitch.png
+> lanternkeep --scene spread
+scene            spread
+manifest         200 entries
+loaded           200
+still pending    0
+bytes read       3374983
+frames           40
+frames over      0
+worst frame      under 3x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  assets          40 calls
+  simulation      40 calls
+wrote shots/spread.png
+> lanternkeep --scene budget_tight
+scene            budget_tight
+manifest         200 entries
+loaded           138
+still pending    62
+bytes read       2289166
+frames           40
+frames over      0
+worst frame      under 3x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  assets          40 calls
+  simulation      40 calls
+wrote shots/budget_tight.png
+> lanternkeep --scene budget_loose
+scene            budget_loose
+manifest         200 entries
+loaded           200
+still pending    0
+bytes read       3374983
+frames           40
+frames over      0
+worst frame      3x to 10x the mean frame of the same run
+busiest frame    under 20% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  assets          40 calls
+  simulation      40 calls
+wrote shots/budget_loose.png
+> lanternkeep --scene partial
+scene            partial
+manifest         200 entries
+loaded           60
+still pending    140
+bytes read       1066903
+frames           40
+frames over      0
+worst frame      3x to 10x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  assets           6 calls
+  simulation      40 calls
+wrote shots/partial.png
+> lanternkeep --scene preloaded
+scene            preloaded
+manifest         200 entries
+loaded           200
+still pending    0
+bytes read       3374983
+frames           40
+frames over      0
+worst frame      under 3x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  simulation      40 calls
+  assets          40 calls
+wrote shots/preloaded.png
+> lanternkeep --scene nothing
+scene            nothing
+manifest         200 entries
+loaded           0
+still pending    0
+bytes read       0
+frames           40
+frames over      0
+worst frame      under 3x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  simulation      40 calls
+  assets          40 calls
+wrote shots/nothing.png
+> lanternkeep --scene many
+scene            many
+manifest         200 entries
+loaded           200
+still pending    0
+bytes read       3374983
+frames           40
+frames over      0
+worst frame      under 3x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  assets          40 calls
+  simulation      40 calls
+wrote shots/many.png
+> lanternkeep --scene few
+scene            few
+manifest         200 entries
+loaded           200
+still pending    0
+bytes read       3374983
+frames           40
+frames over      0
+worst frame      under 3x the mean frame of the same run
+busiest frame    under 10% of the manifest in any one frame
+verdict          EVERY FRAME FIT
+  assets          40 calls
+  simulation      40 calls
+wrote shots/few.png

@@ -1,0 +1,104 @@
+> lanternkeep --scene from_data
+scene            from_data
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   14
+slots allocated  14
+attached to view 14
+ticks run        0
+wrote shots/from_data.png
+> lanternkeep --scene broken
+scene            broken
+prefab error     line 6: unknown directive 'scal'
+no frame written
+> lanternkeep --scene walked
+scene            walked
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   14
+slots allocated  14
+attached to view 14
+ticks run        100
+wrote shots/walked.png
+> lanternkeep --scene storm
+scene            storm
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   56
+slots allocated  56
+attached to view 56
+ticks run        0
+wrote shots/storm.png
+> lanternkeep --scene despawned
+scene            despawned
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   9
+slots allocated  14
+attached to view 9
+ticks run        0
+wrote shots/despawned.png
+> lanternkeep --scene respawned
+scene            respawned
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   23
+slots allocated  23
+attached to view 23
+ticks run        0
+wrote shots/respawned.png
+> lanternkeep --scene one_lantern
+scene            one_lantern
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   13
+slots allocated  14
+attached to view 13
+ticks run        0
+wrote shots/one_lantern.png
+> lanternkeep --scene dense
+scene            dense
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   42
+slots allocated  42
+attached to view 42
+ticks run        0
+wrote shots/dense.png
+> lanternkeep --scene sparse
+scene            sparse
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   8
+slots allocated  14
+attached to view 8
+ticks run        0
+wrote shots/sparse.png
+> lanternkeep --scene stacked
+scene            stacked
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   28
+slots allocated  28
+attached to view 28
+ticks run        0
+wrote shots/stacked.png
+> lanternkeep --scene night
+scene            night
+prefab file      keep.prefab
+definitions      5
+objects declared 14
+objects living   14
+slots allocated  14
+attached to view 14
+ticks run        0
+wrote shots/night.png

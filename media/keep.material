@@ -1,0 +1,13 @@
+// Lantern Keep - written by the program, parsed by OGRE.
+material Keep/Post
+{
+    technique
+    {
+        pass
+        {
+            ambient  0.35 0.34 0.33
+            diffuse  0.72 0.70 0.66
+            specular 0.15 0.15 0.15 12
+        }
+    }
+}

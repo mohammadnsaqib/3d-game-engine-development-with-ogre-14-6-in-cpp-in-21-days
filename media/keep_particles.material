@@ -1,0 +1,38 @@
+material Keep/Spark
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      depth_write off
+      scene_blend add
+      diffuse vertexcolour
+      texture_unit
+      {
+        texture spark.png
+        filtering bilinear
+      }
+    }
+  }
+}
+
+material Keep/Smoke
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      depth_write off
+      scene_blend alpha_blend
+      diffuse vertexcolour
+      texture_unit
+      {
+        texture spark.png
+        filtering bilinear
+        colour_op_ex modulate src_texture src_manual 0.42 0.42 0.46
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# warden.behaviour -- what the warden of the Lantern Keep does, and when.
+#
+# Four keywords: state, speed, goto ... when. Three variables the game measures for you:
+#   timer      seconds since this state began
+#   intruder   distance to the nearest intruder
+#   home       distance from where this warden started
+#
+# The first state in the file is where a warden begins. Rules are tested top to bottom and the
+# first one that holds wins, so order is something you can see rather than something you infer.
+
+state idle
+  speed 0
+  goto patrol when timer > 0.40
+
+state patrol
+  speed 70
+  goto chase when intruder < 200
+
+state chase
+  speed 150
+  goto return when intruder > 340
+
+state return
+  speed 95
+  goto idle when home < 24

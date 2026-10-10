@@ -1,0 +1,152 @@
+> lanternkeep --scene list
+scene            list
+objects          14 living, 14 slot(s)
+gizmo            off
+console session  1 command(s)
+> list
+14 object(s)
+  wall0
+  wall1
+  wall2
+  wall3
+  wall4
+  wall5
+  wall6
+  wall7
+  wall8
+  lantern0
+  lantern1
+  lantern2
+  warden
+  marker
+wrote shots/list.png
+> lanternkeep --scene inspect
+scene            inspect
+objects          14 living, 14 slot(s)
+gizmo            off
+console session  1 command(s)
+> inspect warden
+warden
+  components: transform visual
+  position -40.0 30.0 40.0
+  scale    0.2 0.5 0.2
+  dirty    yes
+wrote shots/inspect.png
+> lanternkeep --scene inspect_bare
+scene            inspect_bare
+objects          14 living, 14 slot(s)
+gizmo            off
+console session  1 command(s)
+> inspect marker
+marker
+  components: (none)
+wrote shots/inspect_bare.png
+> lanternkeep --scene spawn
+scene            spawn
+objects          15 living, 15 slot(s)
+gizmo            off
+console session  1 command(s)
+> spawn brazier 140 40 40
+spawned brazier at 140.0 40.0 40.0
+wrote shots/spawn.png
+> lanternkeep --scene destroy
+scene            destroy
+objects          13 living, 14 slot(s)
+gizmo            off
+console session  2 command(s)
+> destroy wall4
+destroyed wall4
+> list
+13 object(s)
+  wall0
+  wall1
+  wall2
+  wall3
+  wall5
+  wall6
+  wall7
+  wall8
+  lantern0
+  lantern1
+  lantern2
+  warden
+  marker
+wrote shots/destroy.png
+> lanternkeep --scene move
+scene            move
+objects          14 living, 14 slot(s)
+gizmo            off
+console session  3 command(s)
+> select warden
+selected warden
+> move warden 150 30 40
+warden moved to 150.0 30.0 40.0
+> inspect warden
+warden
+  components: transform visual
+  position 150.0 30.0 40.0
+  scale    0.2 0.5 0.2
+  dirty    yes
+wrote shots/move.png
+> lanternkeep --scene unknown
+scene            unknown
+objects          14 living, 14 slot(s)
+gizmo            off
+console session  2 command(s)
+> wander warden
+unknown command 'wander'
+> inspect wallX
+no object named 'wallX'
+wrote shots/unknown.png
+> lanternkeep --scene gizmo_translate
+scene            gizmo_translate
+objects          14 living, 14 slot(s)
+gizmo            translate
+console session  2 command(s)
+> select warden
+selected warden
+> gizmo translate
+gizmo translate
+wrote shots/gizmo_translate.png
+> lanternkeep --scene gizmo_rotate
+scene            gizmo_rotate
+objects          14 living, 14 slot(s)
+gizmo            rotate
+console session  2 command(s)
+> select warden
+selected warden
+> gizmo rotate
+gizmo rotate
+wrote shots/gizmo_rotate.png
+> lanternkeep --scene gizmo_scale
+scene            gizmo_scale
+objects          14 living, 14 slot(s)
+gizmo            scale
+console session  2 command(s)
+> select warden
+selected warden
+> gizmo scale
+gizmo scale
+wrote shots/gizmo_scale.png
+> lanternkeep --scene gizmo_drag
+scene            gizmo_drag
+objects          14 living, 14 slot(s)
+gizmo            translate
+drag grabbed     yes
+warden x         -40.0 before, 21.3 after
+console session  2 command(s)
+> select warden
+selected warden
+> gizmo translate
+gizmo translate
+wrote shots/gizmo_drag.png
+> lanternkeep --scene camera_gizmo
+scene            camera_gizmo
+objects          14 living, 14 slot(s)
+gizmo            camera orientation cube
+console session  2 command(s)
+> select warden
+selected warden
+> gizmo off
+gizmo off
+wrote shots/camera_gizmo.png

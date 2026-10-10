@@ -1,0 +1,35 @@
+# The Lantern Keep, as data.
+#
+# Everything the courtyard is made of, in a file the game reads at start-up. Change a number
+# here, run again, and the keep is different -- with no compiler involved.
+#
+# One directive a line. `#` starts a comment. Unknown directives are an error, on purpose.
+
+# -- the wall along the back -------------------------------------------------------------
+object wall
+  at     -160 40 -70
+  scale  0.20 0.46 0.20
+  repeat 9  40 0 0
+
+# -- two braziers standing in front of it -------------------------------------------------
+object brazier
+  at     -90 26 40
+  scale  0.26 0.26 0.26
+  tint   0.82 0.62 0.38
+  repeat 2  180 0 0
+
+# -- the warden, who walks ----------------------------------------------------------------
+object warden
+  at     -150 34 120
+  scale  0.20 0.42 0.20
+  moves  64 0 0
+
+# -- the lantern: a light with no body, which is a component decision, not a lighting one --
+object lantern
+  at     170 190 210
+  glow   1.0 0.88 0.66
+
+# -- a second, colder lantern from the other side -----------------------------------------
+object lantern_blue
+  at     -200 150 160
+  glow   0.42 0.58 1.0

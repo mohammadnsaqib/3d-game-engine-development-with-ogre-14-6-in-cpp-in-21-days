@@ -1,0 +1,140 @@
+> lanternkeep --scene baseline
+scene            baseline
+objects          240
+ticks            120
+cuts             dirty off, broad off, no-sqrt off, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   28800
+  narrow tests       181040
+  sqrt calls         3441600
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/baseline.png
+> lanternkeep --scene dirty_on
+scene            dirty_on
+objects          240
+ticks            120
+cuts             dirty on, broad off, no-sqrt off, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   19200
+  narrow tests       181040
+  sqrt calls         3441600
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/dirty_on.png
+> lanternkeep --scene broad_on
+scene            broad_on
+objects          240
+ticks            120
+cuts             dirty off, broad on, no-sqrt off, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   28800
+  narrow tests       86228
+  sqrt calls         86802
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/broad_on.png
+> lanternkeep --scene sqrt_on
+scene            sqrt_on
+objects          240
+ticks            120
+cuts             dirty off, broad off, no-sqrt on, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   28800
+  narrow tests       181040
+  sqrt calls         0
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/sqrt_on.png
+> lanternkeep --scene all_on
+scene            all_on
+objects          240
+ticks            120
+cuts             dirty on, broad on, no-sqrt on, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   19200
+  narrow tests       86228
+  sqrt calls         0
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/all_on.png
+> lanternkeep --scene worse
+scene            worse
+objects          240
+ticks            120
+cuts             dirty off, broad off, no-sqrt off, sort on
+WORK -- reproducible, identical on every run
+  transform pushes   28800
+  narrow tests       181040
+  sqrt calls         3441600
+  whole-array sorts  120
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/worse.png
+> lanternkeep --scene control
+scene            control
+objects          240
+ticks            120
+cuts             dirty off, broad off, no-sqrt off, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   28800
+  narrow tests       181040
+  sqrt calls         3441600
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/control.png
+> lanternkeep --scene scale_120
+scene            scale_120
+objects          120
+ticks            120
+cuts             dirty on, broad on, no-sqrt on, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   9600
+  narrow tests       42790
+  sqrt calls         0
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/scale_120.png
+> lanternkeep --scene scale_480
+scene            scale_480
+objects          480
+ticks            120
+cuts             dirty on, broad on, no-sqrt on, sort off
+WORK -- reproducible, identical on every run
+  transform pushes   38400
+  narrow tests       161850
+  sqrt calls         0
+  whole-array sorts  0
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/scale_480.png
+> lanternkeep --scene worse_all
+scene            worse_all
+objects          240
+ticks            120
+cuts             dirty on, broad on, no-sqrt on, sort on
+WORK -- reproducible, identical on every run
+  transform pushes   19200
+  narrow tests       86228
+  sqrt calls         0
+  whole-array sorts  120
+CONTROL -- the same work run a second time
+  identical work both runs  yes
+  elapsed time reported     no -- it differs on every run; see the source
+wrote shots/worse_all.png

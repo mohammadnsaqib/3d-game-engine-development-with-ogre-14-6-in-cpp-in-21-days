@@ -1,0 +1,20 @@
+> lanternkeep --scene one_entity
+wrote shots/one_entity.png
+> lanternkeep --scene three_things
+wrote shots/three_things.png
+> lanternkeep --scene child_attached
+wrote shots/child_attached.png
+> lanternkeep --scene child_detached
+wrote shots/child_detached.png
+> lanternkeep --scene scaled
+wrote shots/scaled.png
+> lanternkeep --scene material_colour
+wrote shots/material_colour.png
+> lanternkeep --scene material_texture
+wrote shots/material_texture.png
+> lanternkeep --scene texture_tiled
+wrote shots/texture_tiled.png
+> lanternkeep --scene two_materials
+wrote shots/two_materials.png
+> lanternkeep --scene no_shaderlib
+OGRE: Ogre::FileNotFoundException::FileNotFoundException: Cannot locate resource FFPLib_Transform.glsl in resource group OgreInternal. in ResourceGroupManager::openResource at D:\src\ogre\OgreMain\src\OgreResourceGroupManager.cpp (line 560)

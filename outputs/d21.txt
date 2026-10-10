@@ -1,0 +1,64 @@
+> lanternkeep --scene exe_only
+scene            exe_only
+strict           yes -- beside the exe only
+files staged     1 item(s), 2 file(s) in the folder
+exit code        -1073741515
+first line       (no output)
+came up          no
+wrote shots/exe_only.png
+> lanternkeep --scene plus_core
+scene            plus_core
+strict           yes -- beside the exe only
+files staged     6 item(s), 8 file(s) in the folder
+exit code        -1073740791
+first line       (no output)
+came up          no
+wrote shots/plus_core.png
+> lanternkeep --scene plus_plugins
+scene            plus_plugins
+strict           yes -- beside the exe only
+files staged     8 item(s), 10 file(s) in the folder
+exit code        -1073740791
+first line       (no output)
+came up          no
+wrote shots/plus_plugins.png
+> lanternkeep --scene plus_media
+scene            plus_media
+strict           yes -- beside the exe only
+files staged     10 item(s), 46 file(s) in the folder
+exit code        0
+first line       selftest ok
+came up          yes
+wrote shots/plus_media.png
+> lanternkeep --scene cooked
+scene            cooked
+strict           yes -- beside the exe only
+files staged     12 item(s), 77 file(s) in the folder
+exit code        0
+first line       selftest ok
+came up          yes
+wrote shots/cooked.png
+> lanternkeep --scene missing_one
+scene            missing_one
+strict           yes -- beside the exe only
+files staged     11 item(s), 74 file(s) in the folder
+exit code        -1073741515
+first line       (no output)
+came up          no
+wrote shots/missing_one.png
+> lanternkeep --scene moved
+scene            moved
+strict           yes -- beside the exe only
+files staged     12 item(s), 77 file(s) in the folder
+exit code        0
+first line       selftest ok
+came up          yes
+wrote shots/moved.png
+> lanternkeep --scene dev_fallback
+scene            dev_fallback
+strict           no -- fallback allowed
+files staged     8 item(s), 11 file(s) in the folder
+exit code        0
+first line       selftest ok
+came up          yes
+wrote shots/dev_fallback.png

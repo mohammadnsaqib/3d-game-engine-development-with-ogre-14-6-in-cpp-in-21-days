@@ -1,0 +1,10 @@
+﻿> lanternkeep --scene keep
+wrote shots/keep.png
+> welded
+wrote shots/keep_welded.png
+> certutil -hashfile shots\keep.png MD5
+d7bfff4c6cf710e621fc0880e054d288
+> certutil -hashfile shots\keep_welded.png MD5
+d7bfff4c6cf710e621fc0880e054d288
+
+identical: True   bytes: 50332 / 50332

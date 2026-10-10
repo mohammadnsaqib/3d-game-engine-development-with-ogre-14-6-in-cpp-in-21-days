@@ -1,0 +1,7 @@
+cooked into D:\b\d21\dist
+  executable   1
+  libraries    7 of 7
+  engine media 35 file(s)
+  game media   26 file(s)
+  game data    5 file(s)
+  archive      74 file(s), 3.3 MB

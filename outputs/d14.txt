@@ -1,0 +1,94 @@
+> lanternkeep --scene tunnelled
+scene            tunnelled
+resolver         discrete (checks the destination)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+warden ended x   2835.0
+past the wall    YES -- through solid stone
+ticks blocked    0
+wrote shots/tunnelled.png
+> lanternkeep --scene stopped
+scene            stopped
+resolver         swept (checks the path)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+warden ended x   46.9
+past the wall    no
+ticks blocked    47
+wrote shots/stopped.png
+> lanternkeep --scene slow_discrete
+scene            slow_discrete
+resolver         discrete (checks the destination)
+speed            40 units/second  (0.8 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+warden ended x   -125.0
+past the wall    no
+ticks blocked    0
+wrote shots/slow_discrete.png
+> lanternkeep --scene slow_swept
+scene            slow_swept
+resolver         swept (checks the path)
+speed            40 units/second  (0.8 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+warden ended x   -125.0
+past the wall    no
+ticks blocked    0
+wrote shots/slow_swept.png
+> lanternkeep --scene thick_wall
+scene            thick_wall
+resolver         discrete (checks the destination)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  26 units at x = 60
+boxes            1
+warden ended x   15.0
+past the wall    no
+ticks blocked    47
+wrote shots/thick_wall.png
+> lanternkeep --scene ray_hit
+scene            ray_hit
+resolver         discrete (checks the destination)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+ray hit          keep-wall
+ray distance     316.0
+wrote shots/ray_hit.png
+> lanternkeep --scene ray_miss
+scene            ray_miss
+resolver         discrete (checks the destination)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+ray hit          nothing
+wrote shots/ray_miss.png
+> lanternkeep --scene volumes
+scene            volumes
+resolver         discrete (checks the destination)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            1
+wrote shots/volumes.png
+> lanternkeep --scene corner
+scene            corner
+resolver         swept (checks the path)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            2
+warden ended x   255.0
+past the wall    YES -- through solid stone
+ticks blocked    0
+wrote shots/corner.png
+> lanternkeep --scene no_walls
+scene            no_walls
+resolver         swept (checks the path)
+speed            3000 units/second  (60.0 per tick)
+wall half-width  4 units at x = 60
+boxes            0
+warden ended x   2835.0
+past the wall    YES -- through solid stone
+ticks blocked    0
+wrote shots/no_walls.png

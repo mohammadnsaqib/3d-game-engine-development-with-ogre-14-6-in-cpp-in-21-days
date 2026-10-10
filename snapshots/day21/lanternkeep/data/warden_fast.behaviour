@@ -1,0 +1,20 @@
+# The same warden with one number changed: patrol speed 70 becomes 210.
+#
+# This is the file the live-reload scenes swap in mid-run. Nothing else differs -- same states,
+# same transitions, same order -- so any difference in the picture is that one number.
+
+state idle
+  speed 0
+  goto patrol when timer > 0.40
+
+state patrol
+  speed 210
+  goto chase when intruder < 200
+
+state chase
+  speed 150
+  goto return when intruder > 340
+
+state return
+  speed 95
+  goto idle when home < 24

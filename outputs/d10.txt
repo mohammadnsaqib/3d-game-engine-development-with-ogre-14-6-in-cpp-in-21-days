@@ -1,0 +1,99 @@
+> lanternkeep --scene bridged
+scene            bridged
+marking enabled  yes
+objects attached 12
+ticks run        50
+pushed last sync 2
+skipped last sync 10
+patrol0 world x   -36.0
+patrol1 world x   84.0
+wrote shots/bridged.png
+> lanternkeep --scene stale_nodes
+scene            stale_nodes
+marking enabled  NO
+objects attached 12
+ticks run        50
+pushed last sync 0
+skipped last sync 12
+patrol0 world x   -36.0
+patrol1 world x   84.0
+wrote shots/stale_nodes.png
+> lanternkeep --scene unmoved
+scene            unmoved
+marking enabled  yes
+objects attached 12
+ticks run        0
+pushed last sync 0
+skipped last sync 0
+patrol0 world x   -120.0
+patrol1 world x   -30.0
+wrote shots/unmoved.png
+> lanternkeep --scene halfway
+scene            halfway
+marking enabled  yes
+objects attached 12
+ticks run        25
+pushed last sync 2
+skipped last sync 10
+patrol0 world x   -78.0
+patrol1 world x   27.0
+wrote shots/halfway.png
+> lanternkeep --scene one_moved
+scene            one_moved
+marking enabled  yes
+objects attached 11
+ticks run        50
+pushed last sync 1
+skipped last sync 10
+patrol0 world x   -36.0
+wrote shots/one_moved.png
+> lanternkeep --scene all_moved
+scene            all_moved
+marking enabled  yes
+objects attached 12
+ticks run        50
+pushed last sync 11
+skipped last sync 1
+patrol0 world x   -36.0
+patrol1 world x   84.0
+wrote shots/all_moved.png
+> lanternkeep --scene far
+scene            far
+marking enabled  yes
+objects attached 12
+ticks run        50
+pushed last sync 2
+skipped last sync 10
+patrol0 world x   48.0
+patrol1 world x   198.0
+wrote shots/far.png
+> lanternkeep --scene near
+scene            near
+marking enabled  yes
+objects attached 12
+ticks run        50
+pushed last sync 2
+skipped last sync 10
+patrol0 world x   -92.0
+patrol1 world x   8.0
+wrote shots/near.png
+> lanternkeep --scene many
+scene            many
+marking enabled  yes
+objects attached 22
+ticks run        50
+pushed last sync 3
+skipped last sync 19
+patrol0 world x   -36.0
+patrol1 world x   84.0
+patrol2 world x   204.0
+wrote shots/many.png
+> lanternkeep --scene few
+scene            few
+marking enabled  yes
+objects attached 6
+ticks run        50
+pushed last sync 1
+skipped last sync 5
+patrol0 world x   -36.0
+wrote shots/few.png

@@ -1,0 +1,16 @@
+﻿> lanternkeep --scene courtyard --cost
+scene            courtyard
+batches          10
+triangles        120
+frames measured  200 (after 10 warm-up frames)
+mean frame       0.05 ms   (varies run to run -- read the verdict, not the number)
+verdict          UNDER the 1.00 ms budget
+
+> lanternkeep --scene many_lights --cost
+scene            many_lights
+batches          10
+triangles        120
+frames measured  200 (after 10 warm-up frames)
+mean frame       0.13 ms   (varies run to run -- read the verdict, not the number)
+verdict          UNDER the 1.00 ms budget
+

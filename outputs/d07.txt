@@ -1,0 +1,81 @@
+> lanternkeep --scene budget
+scene            budget
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build       24 calls,  10.8% of budget (mean)
+  simulation        19 calls,   5.4% of budget (mean)
+wrote shots/budget.png
+> lanternkeep --scene over
+scene            over
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      19
+verdict          SOME FRAMES DID NOT FIT
+  scene build       24 calls,  63.0% of budget (mean)
+  simulation        19 calls,  48.0% of budget (mean)
+wrote shots/over.png
+> lanternkeep --scene heavy_sim
+scene            heavy_sim
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      0
+verdict          EVERY FRAME FIT
+  simulation        19 calls,  25.2% of budget (mean)
+  scene build       24 calls,  10.8% of budget (mean)
+wrote shots/heavy_sim.png
+> lanternkeep --scene heavy_build
+scene            heavy_build
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build       24 calls,  54.0% of budget (mean)
+  simulation        19 calls,   5.4% of budget (mean)
+wrote shots/heavy_build.png
+> lanternkeep --scene light
+scene            light
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build       24 calls,   0.4% of budget (mean)
+  simulation        19 calls,   0.4% of budget (mean)
+wrote shots/light.png
+> lanternkeep --scene many_blocks
+scene            many_blocks
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build       24 calls,  10.8% of budget (mean)
+  simulation        19 calls,   5.4% of budget (mean)
+wrote shots/many_blocks.png
+> lanternkeep --scene few_blocks
+scene            few_blocks
+budget           16.67 ms per frame (60 Hz)
+frames           24
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build       24 calls,  10.8% of budget (mean)
+  simulation        19 calls,   5.4% of budget (mean)
+wrote shots/few_blocks.png
+> lanternkeep --scene long_run
+scene            long_run
+budget           16.67 ms per frame (60 Hz)
+frames           120
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build      120 calls,  10.8% of budget (mean)
+  simulation        99 calls,   5.4% of budget (mean)
+wrote shots/long_run.png
+> lanternkeep --scene short_run
+scene            short_run
+budget           16.67 ms per frame (60 Hz)
+frames           6
+frames over      0
+verdict          EVERY FRAME FIT
+  scene build        6 calls,  10.8% of budget (mean)
+  simulation         4 calls,   5.4% of budget (mean)
+wrote shots/short_run.png

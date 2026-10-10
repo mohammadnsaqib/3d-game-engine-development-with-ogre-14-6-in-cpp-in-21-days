@@ -1,0 +1,109 @@
+> lanternkeep --scene mixed
+scene            mixed
+objects living   13
+slots allocated  13
+ticks run        24
+with a mover     1
+with a visual    10
+with a glow      2
+warden x         -99.6
+wrote shots/mixed.png
+> lanternkeep --scene still
+scene            still
+objects living   13
+slots allocated  13
+ticks run        0
+with a mover     1
+with a visual    10
+with a glow      2
+warden x         -150.0
+wrote shots/still.png
+> lanternkeep --scene drifted
+scene            drifted
+objects living   13
+slots allocated  13
+ticks run        60
+with a mover     1
+with a visual    10
+with a glow      2
+warden x         -24.0
+wrote shots/drifted.png
+> lanternkeep --scene no_movers
+scene            no_movers
+objects living   13
+slots allocated  13
+ticks run        24
+with a mover     0
+with a visual    10
+with a glow      2
+warden x         -150.0
+wrote shots/no_movers.png
+> lanternkeep --scene slow_movers
+scene            slow_movers
+objects living   13
+slots allocated  13
+ticks run        24
+with a mover     1
+with a visual    10
+with a glow      2
+warden x         -133.2
+wrote shots/slow_movers.png
+> lanternkeep --scene all_movers
+scene            all_movers
+objects living   13
+slots allocated  13
+ticks run        24
+with a mover     10
+with a visual    10
+with a glow      2
+warden x         -99.6
+wrote shots/all_movers.png
+> lanternkeep --scene no_visuals
+scene            no_visuals
+objects living   13
+slots allocated  13
+ticks run        24
+with a mover     1
+with a visual    0
+with a glow      2
+warden x         -99.6
+wrote shots/no_visuals.png
+> lanternkeep --scene glow_only
+scene            glow_only
+objects living   3
+slots allocated  3
+ticks run        24
+with a mover     0
+with a visual    0
+with a glow      2
+wrote shots/glow_only.png
+> lanternkeep --scene one_lantern
+scene            one_lantern
+objects living   12
+slots allocated  12
+ticks run        24
+with a mover     1
+with a visual    10
+with a glow      1
+warden x         -99.6
+wrote shots/one_lantern.png
+> lanternkeep --scene many
+scene            many
+objects living   44
+slots allocated  44
+ticks run        24
+with a mover     1
+with a visual    41
+with a glow      2
+warden x         -99.6
+wrote shots/many.png
+> lanternkeep --scene few
+scene            few
+objects living   8
+slots allocated  8
+ticks run        24
+with a mover     1
+with a visual    5
+with a glow      2
+warden x         -99.6
+wrote shots/few.png

@@ -1,0 +1,106 @@
+> lanternkeep --scene idle
+scene            idle
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        10  (dt 0.02 s)
+reload           none attempted
+warden 0         state idle     x   -150.0  transitions 0
+wrote shots/idle.png
+> lanternkeep --scene patrol
+scene            patrol
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        60  (dt 0.02 s)
+reload           none attempted
+warden 0         state patrol   x    -92.6  transitions 1
+wrote shots/patrol.png
+> lanternkeep --scene chase
+scene            chase
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        160  (dt 0.02 s)
+reload           none attempted
+warden 0         state chase    x    100.2  transitions 2
+wrote shots/chase.png
+> lanternkeep --scene returning
+scene            returning
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        200  (dt 0.02 s)
+reload           none attempted
+warden 0         state return   x    -73.8  transitions 3
+wrote shots/returning.png
+> lanternkeep --scene reload_before
+scene            reload_before
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        80  (dt 0.02 s)
+reload           none attempted
+warden 0         state patrol   x    -64.6  transitions 1
+wrote shots/reload_before.png
+> lanternkeep --scene reload_after
+scene            reload_after
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed 210.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        80  (dt 0.02 s)
+reload           accepted at tick 40
+warden 0         state patrol   x     47.4  transitions 1
+wrote shots/reload_after.png
+> lanternkeep --scene bad_reload
+scene            bad_reload
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        80  (dt 0.02 s)
+reload           REFUSED at tick 40: line 12: unknown variable 'intrudor' (timer, intruder, home)
+warden 0         state patrol   x    -64.6  transitions 1
+wrote shots/bad_reload.png
+> lanternkeep --scene no_file
+scene            no_file
+behaviour file   (none installed)
+states loaded    0
+load error       cannot open warden.behaviour.missing
+ticks run        80  (dt 0.02 s)
+reload           none attempted
+warden 0         state          x   -150.0  transitions 0
+wrote shots/no_file.png
+> lanternkeep --scene two_wardens
+scene            two_wardens
+behaviour file   warden.behaviour
+states loaded    4
+  idle     speed   0.0  rules 1
+  patrol   speed  70.0  rules 1
+  chase    speed 150.0  rules 1
+  return   speed  95.0  rules 1
+ticks run        60  (dt 0.02 s)
+reload           none attempted
+warden 0         state patrol   x    -92.6  transitions 1
+warden 1         state patrol   x     44.0  transitions 0
+wrote shots/two_wardens.png

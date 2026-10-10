@@ -1,0 +1,18 @@
+> lanternkeep --scene courtyard
+wrote shots/courtyard.png
+> lanternkeep --scene cam_close
+wrote shots/cam_close.png
+> lanternkeep --scene fov_narrow
+wrote shots/fov_narrow.png
+> lanternkeep --scene fov_wide
+wrote shots/fov_wide.png
+> lanternkeep --scene light_directional
+wrote shots/light_directional.png
+> lanternkeep --scene light_spot
+wrote shots/light_spot.png
+> lanternkeep --scene atten_short
+wrote shots/atten_short.png
+> lanternkeep --scene many_lights
+wrote shots/many_lights.png
+> lanternkeep --scene clip_near
+wrote shots/clip_near.png

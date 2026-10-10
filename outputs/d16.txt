@@ -1,0 +1,121 @@
+> lanternkeep --scene near
+scene            near
+sources          1
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.318 of full scale
+clipped samples  0
+  lantern        gain 0.450  pan +0.00
+wrote shots/near.png and near.wav
+> lanternkeep --scene far
+scene            far
+sources          1
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.064 of full scale
+clipped samples  0
+  lantern        gain 0.090  pan +0.00
+wrote shots/far.png and far.wav
+> lanternkeep --scene very_far
+scene            very_far
+sources          1
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.000 of full scale
+clipped samples  0
+  lantern        gain 0.000  pan +0.00
+wrote shots/very_far.png and very_far.wav
+> lanternkeep --scene left
+scene            left
+sources          1
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.206 of full scale
+clipped samples  0
+  lantern        gain 0.206  pan -0.99
+wrote shots/left.png and left.wav
+> lanternkeep --scene right
+scene            right
+sources          1
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.206 of full scale
+clipped samples  0
+  lantern        gain 0.206  pan +0.99
+wrote shots/right.png and right.wav
+> lanternkeep --scene pair
+scene            pair
+sources          2
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.225 of full scale
+clipped samples  0
+  left-lantern   gain 0.223  pan -0.99
+  right-lantern  gain 0.223  pan +0.99
+wrote shots/pair.png and pair.wav
+> lanternkeep --scene row
+scene            row
+sources          6
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   1.019 of full scale
+clipped samples  210
+  lantern0       gain 0.174  pan -0.96
+  lantern1       gain 0.273  pan -0.91
+  lantern2       gain 0.450  pan -0.59
+  lantern3       gain 0.450  pan +0.59
+  lantern4       gain 0.273  pan +0.91
+  lantern5       gain 0.174  pan +0.96
+wrote shots/row.png and row.wav
+> lanternkeep --scene loud
+scene            loud
+sources          6
+rolloff          1.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   2.265 of full scale
+clipped samples  3451
+  lantern0       gain 0.386  pan -0.96
+  lantern1       gain 0.606  pan -0.91
+  lantern2       gain 1.000  pan -0.59
+  lantern3       gain 1.000  pan +0.59
+  lantern4       gain 0.606  pan +0.91
+  lantern5       gain 0.386  pan +0.96
+wrote shots/loud.png and loud.wav
+> lanternkeep --scene flat_rolloff
+scene            flat_rolloff
+sources          6
+rolloff          0.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   1.481 of full scale
+clipped samples  1694
+  lantern0       gain 0.450  pan -0.96
+  lantern1       gain 0.450  pan -0.91
+  lantern2       gain 0.450  pan -0.59
+  lantern3       gain 0.450  pan +0.59
+  lantern4       gain 0.450  pan +0.91
+  lantern5       gain 0.450  pan +0.96
+wrote shots/flat_rolloff.png and flat_rolloff.wav
+> lanternkeep --scene steep_rolloff
+scene            steep_rolloff
+sources          6
+rolloff          4.0  (reference distance 120)
+sample rate      22050 Hz, stereo 16-bit
+samples written  15434
+peak amplitude   0.754 of full scale
+clipped samples  0
+  lantern0       gain 0.061  pan -0.96
+  lantern1       gain 0.125  pan -0.91
+  lantern2       gain 0.450  pan -0.59
+  lantern3       gain 0.450  pan +0.59
+  lantern4       gain 0.125  pan +0.91
+  lantern5       gain 0.061  pan +0.96
+wrote shots/steep_rolloff.png and steep_rolloff.wav

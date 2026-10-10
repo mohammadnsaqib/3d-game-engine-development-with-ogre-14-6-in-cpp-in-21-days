@@ -1,0 +1,237 @@
+> lanternkeep --scene bussed
+scene            bussed
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        3
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     2
+tally            1
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+wrote shots/bussed.png
+> lanternkeep --scene no_bus
+scene            no_bus
+wiring           direct (no bus)
+plate knows      3 collaborator(s)
+plates stepped   1
+delivered        0
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     2
+tally            1
+wrote shots/no_bus.png
+> lanternkeep --scene gate_only
+scene            gate_only
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        1
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     0
+tally            0
+  PlateStepped -> gate
+wrote shots/gate_only.png
+> lanternkeep --scene lanterns_only
+scene            lanterns_only
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        1
+nobody listening 0
+gate open        no
+gate opened tick -1
+lanterns lit     2
+tally            0
+  PlateStepped -> lanterns
+wrote shots/lanterns_only.png
+> lanternkeep --scene nobody
+scene            nobody
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        0
+nobody listening 1
+gate open        no
+gate opened tick -1
+lanterns lit     0
+tally            0
+  PlateStepped -> (nobody)
+wrote shots/nobody.png
+> lanternkeep --scene two_plates
+scene            two_plates
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   2
+delivered        6
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     4
+tally            2
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+wrote shots/two_plates.png
+> lanternkeep --scene five_plates
+scene            five_plates
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   5
+delivered        15
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     10
+tally            5
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+wrote shots/five_plates.png
+> lanternkeep --scene eight_plates
+scene            eight_plates
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   8
+delivered        24
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     16
+tally            8
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+wrote shots/eight_plates.png
+> lanternkeep --scene storm
+scene            storm
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   12
+delivered        36
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     24
+tally            12
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+  PlateStepped -> tally
+wrote shots/storm.png
+> lanternkeep --scene order_ab
+scene            order_ab
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        2
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     2
+tally            0
+  PlateStepped -> gate
+  PlateStepped -> lanterns
+wrote shots/order_ab.png
+> lanternkeep --scene order_ba
+scene            order_ba
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        2
+nobody listening 0
+gate open        yes
+gate opened tick 2
+lanterns lit     2
+tally            0
+  PlateStepped -> lanterns
+  PlateStepped -> gate
+wrote shots/order_ba.png
+> lanternkeep --scene chain
+scene            chain
+wiring           bus
+plate knows      0 collaborator(s)
+plates stepped   1
+delivered        2
+nobody listening 0
+gate open        yes
+gate opened tick 3
+lanterns lit     0
+tally            0
+  PlateStepped -> echo
+  GateOpened -> gate
+wrote shots/chain.png
